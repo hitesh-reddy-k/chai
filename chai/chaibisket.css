@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    background-color: rgb(244, 229, 229);
+    height: 100px;
+    width: 100%;
+
+}
+.logo{
+    display: flex;
+    height: 10px;
+    width: 100px;
+    padding-left: 60px;
+    border-radius: 50%;
+}
+.logo-1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 150px;
+    border-radius: 50%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px;
+    font-weight: 800;
+    color: brown;
+
+}
+
+.home2{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+    font-weight: 800;
+    color: brown;
+    cursor: pointer;
+    text-decoration: none;
+
+} 
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    width: 500px;
+    margin: 15px;
+}
+.search2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    height: 50px;
+    width: 500px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin: 15px;
+    outline: none;
+}
+.search-logo{
+    display: flex;
+    align-items: center;
+    background-color: rgba(44, 38, 126, 0.853);
+    border-radius: 30%;
+    height: 50px;
+    width: 40px;
+    justify-content: center;
+    border-radius: none;
+    cursor: pointer;
+}
+.sigin{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: transparent;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.sigin1{
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: transparent;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    cursor: pointer;
+font-style: oblique;  
+align-items: center;
+}
+.sigin2{
+    align-items: center;
+    background: linear-gradient(to right, #33e133 0%, #2d08fd 100%);
+    box-shadow: rgb(83, 77, 77);
+    text-decoration: none;
+    padding: 10px;
+    width: 110px;
+    color: rgb(226, 16, 16);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+
+}
+.login2{
+    align-items: center;
+    background: linear-gradient(to right, #33e133 0%, #2d08fd 100%);
+    box-shadow: rgb(83, 77, 77);
+    text-decoration: none;
+    padding: 10px;
+    width: 110px;
+    color: rgb(226, 16, 16);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+}
+.login{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: transparent;
+    padding: 15px;
+    margin:  25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.login1{
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: transparent;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    cursor: pointer;
+font-style: oblique;  
+align-items: center;
+}
+.iran-chai{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    padding-left: 60px;
+    border-radius: 40%;
+    padding-top: 30px;
+    margin: 2px;
+    align-items: center;
+    
+}
+.iran-chai1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 150px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin: 2px;
+}
+.kadak-chai{
+    display: flex;
+    height: 100px;
+    width: 150px;
+    padding-left: 10px;
+    border-radius: 40%;
+    padding-top: 10px;
+    margin: 2px;
+    align-items: center;
+    padding-left: 50px;
+}
+.kadak-chai1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 100px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin: 2px; 
+}
+.normal-chai{
+    display: flex;
+    height: 100px;
+    width: 150px;
+    padding-left: 10px;
+    border-radius: 40%;
+    padding-top: 10px;
+    margin: 2px;
+    align-items: center;
+    padding-left: 50px;
+}
+.normal-chai1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 100px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin: 2px;    
+}
+.iran-chai-name{
+    display: flex;
+    padding-left: 60px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 23%);
+    padding-top: 20px;
+}
+.iran-chai-name1{
+    text-decoration: none;
+    color: brown;
+}
+.green-tea{
+    display: flex;
+    height: 100px;
+    width: 150px;
+    padding-left: 10px;
+    border-radius: 40%;
+    padding-top: 10px;
+    margin: 2px;
+    align-items: center;
+    padding-left: 50px;
+}
+.green-tea1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 100px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin: 2px; 
+}
+.kadak-chai-name{
+    display: flex;
+    padding-left: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    padding-top: 3px;
+}
+.kadak-chai-name1{
+    text-decoration: none;
+    color: brown;
+}
+.normal-tea-name{
+    display: flex;
+    padding-left: 45px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    padding-top: 3px;
+}
+.normal-tea-name1{
+    text-decoration: none;
+    color: brown;
+}
+.allam-chai{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    padding-left: 60px;
+    border-radius: 40%;
+    padding-top: 10px;
+    margin: 2px;
+    align-items: center;
+}
+.allam-chai1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 150px;
+    border-radius: 60%;
+    cursor: pointer;
+    margin: 2px;
+}
+.moon-biscuits{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    padding-left: 60px;
+    border-radius: 40%;
+    padding-top: 10px;
+    margin: 2px;
+    align-items: center;
+}
+.moon-biscuits1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 150px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin: 2px;
+}
+.green-tea-name{
+    display: flex;
+    padding-left: 60px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    padding-top: 3px;
+}
+.green-tea-name1{
+    text-decoration: none;
+    color: brown;
+}
+.allam-tea-name{
+    display: flex;
+    padding-left: 95px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    padding-top: 3px;
+}
+.allam-tea-name1{
+    text-decoration: none;
+    color: brown;
+}
+.moon-biscuits-name{
+    display: flex;
+    padding-left: 95px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    padding-top: 3px;
+}
+.moon-biscuits-name1{
+    text-decoration: none;
+    color: brown;
+}
+.rusk{
+    display: flex;
+    height: 100px;
+    width: 200px; 
+    padding-left: 60px;
+    border-radius: 40%;
+    padding-top: 10px;
+    margin: 2px;
+    align-items: center;
+}
+.rusk1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 110px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin: 2px;
+}
+.rusk-name{
+    display: flex;
+    padding-left: 105px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    padding-top: 3px;
+}
+.rusk-name1{
+    text-decoration: none;
+    color: brown;
+}
+.others-biscuits{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    padding-left: 60px;
+    border-radius: 40%;
+    padding-top: 10px;
+    margin: 2px;
+    align-items: center;
+}
+.others-biscuits1{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 110px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin: 2px;
+}
+.others-name{
+    display: flex;
+    padding-left: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    cursor: pointer;
+    color: transparent;
+    padding-top: 3px;
+}
+.others-name1{
+    text-decoration: none;
+    color: brown;
+}
+.suggest-for-u{
+    color: blue;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.section5{
+background-color: rgb(7, 110, 201);
+}
+.ocil{
+    padding-top: 20px;
+    padding-left: 50px;
+    background-color: #ffff;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 23%);
+    display: flex;
+    align-items: center;
+}
+.ocil1{
+    border-radius: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    align-items: center;
+    color: black;
+    
+}
+.ocil2{
+    height: 30px;
+    font-weight: 700;
+    
+}
+
+
+
+
+
+ 
